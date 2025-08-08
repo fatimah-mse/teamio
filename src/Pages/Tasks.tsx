@@ -126,8 +126,6 @@ export default function Tasks() {
             
             <TaskStatusPieChart />
 
-            <TaskOverviewChart />
-
             {role === 'admin' && <TaskOverviewChart /> }
 
         </div>
