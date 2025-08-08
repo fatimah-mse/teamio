@@ -155,7 +155,7 @@ export default function ShowProject() {
 
                 const fileURL = response.data.data
 
-                navigate(fileURL)
+                window.open(fileURL, '_blank')
             }
         } catch (err: any) {
             Swal.fire({

@@ -89,7 +89,7 @@ const Chat = () => {
                 <FontAwesomeIcon className="text-2xl text-amber-100" icon={faMessage} />
             </span>
             <div
-                className={`flex flex-col h-[440px] bg-white rounded-md shadow-2xl shadow-myPrimary/40 w-full max-576:max-w-72 max-w-96 transition-all duration-700 ease-in-out fixed bottom-20 z-30 ${show ? 'right-4 md:!right-8' : '-right-full'
+                className={`flex flex-col h-[440px] bg-white rounded-md shadow-2xl shadow-myPrimary/40 w-full max-576:max-w-[80%] max-w-96 transition-all duration-700 ease-in-out fixed bottom-20 z-30 ${show ? 'right-4 md:!right-8' : '-right-full'
                     }`}
             >
                 <div className="px-3 py-2 bg-blue-100 shadow-md flex justify-between items-center rounded-t-md overflow-hidden">
