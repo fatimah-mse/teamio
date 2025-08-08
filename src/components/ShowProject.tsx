@@ -155,12 +155,7 @@ export default function ShowProject() {
 
                 const fileURL = response.data.data
 
-                const link = document.createElement('a')
-                link.href = fileURL
-                link.download = `project-report-${id}.pdf`
-                document.body.appendChild(link)
-                link.click()
-                document.body.removeChild(link)
+                navigate(fileURL)
             }
         } catch (err: any) {
             Swal.fire({

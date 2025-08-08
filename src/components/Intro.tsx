@@ -33,7 +33,7 @@ export default function Intro() {
             setLoading(true)
             const token = localStorage.getItem('token')
             if (token) {
-                const response = await axios.get('http://localhost:4000/api/users/me', {
+                const response = await axios.get('https://task-manager-apis-t2dp.onrender.com/api/users/me', {
                     headers: { Authorization: `Bearer ${token}` },
                     params: { t: Date.now() }
                 })
