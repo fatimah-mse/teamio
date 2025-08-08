@@ -99,7 +99,7 @@ export default function TaskStatusPieChart() {
 
     return (
         <>
-            {(!hasTasks && groupedTasks.length > 0) &&
+            {(groupedTasks.length > 0) &&
                 <div className="my-8">
                     <h2 className="text-xl text-myPrimary font-bold underline underline-offset-2 mb-4">Task Status Overview</h2>
                     <div className='flex max-768:items-start gap-4 items-end max-768:flex-col'>
