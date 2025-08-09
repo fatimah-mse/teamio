@@ -23,6 +23,7 @@ export default function TaskStatusPieChart() {
     const [loading, setLoading] = useState(false)
     const [selectedStatus, setSelectedStatus] = useState<string | null>(null)
     const [hasTasks, setHasTasks] = useState(true)
+    console.log(hasTasks)
 
     const formatStatus = (status: string): string => {
         return status
