@@ -81,7 +81,7 @@ export default function Tasks() {
                 >
                     <option className="text-sm font-winky-rough font-medium" value="">All Status</option>
                     <option className="text-sm font-winky-rough font-medium" value="pending">Pending</option>
-                    <option className="text-sm font-winky-rough font-medium" value="in-progress">In Progress</option>
+                    <option className="text-sm font-winky-rough font-medium" value="in progress">In Progress</option>
                     <option className="text-sm font-winky-rough font-medium" value="completed">Completed</option>
                     <option className="text-sm font-winky-rough font-medium" value="postponed">Postponed</option>
                 </select>
